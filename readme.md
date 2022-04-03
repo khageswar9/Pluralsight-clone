@@ -1,4 +1,4 @@
-# Pluralsight Clone
+### Pluralsight Clone
 
 ### Project Description
 
