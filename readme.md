@@ -79,9 +79,7 @@ _To start with the Project run the following command in terminal in "backend" fo
 
 https://medium.com/@abhijeetchaudhari110/pluralsight-clone-f12f5a3e042e
 
-### Google Drive Link
 
-https://drive.google.com/drive/folders/1tWG8s0n0IslQ66fKwdQ28dgPdl2oX-ED?usp=sharing
 
 
 ### Netlify Link
