@@ -2,6 +2,9 @@
 
 ### Project Description
 
+Pluralsight is an online learning and workforce development platform that helps businesses and individuals adjust to changing technology.
+
+
 _To start with the Project run the following command in terminal in "backend" folder_
 
 > > ⌘ **npm start**
