@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
 
 module.exports = () =>{
-    mongoose.connect("mongodb+srv://abhijeet:abhijeet@cluster0.7yn1m.mongodb.net/pluralsight");
+    mongoose.connect("mongodb+srv://virajgupta:Virajgupta12345@cluster0.wmplk.mongodb.net/npl?retryWrites=true&w=majority");
 };
