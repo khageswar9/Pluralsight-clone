@@ -11,13 +11,15 @@ _To start with the Project run the following command in terminal in "backend" fo
 
 > After that go to your browser and type `http://localhost:5000/homepage` and you are ready to run and explore our project.
 ---
+
 ### Medium Link
 
 https://medium.com/@abhijeetchaudhari110/pluralsight-clone-f12f5a3e042e
 
 ### Netlify Link
 
-plurlsightclone.netlify.app
+https://plurlsightclone.netlify.app
+
 ---
 ---
 
@@ -94,4 +96,4 @@ https://medium.com/@abhijeetchaudhari110/pluralsight-clone-f12f5a3e042e
 
 ### Netlify Link
 
-plurlsightclone.netlify.app
+https://plurlsightclone.netlify.app
