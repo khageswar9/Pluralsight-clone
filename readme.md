@@ -19,7 +19,6 @@ https://medium.com/@abhijeetchaudhari110/pluralsight-clone-f12f5a3e042e
 ### Netlify Link
 
 https://plurlsightclone.netlify.app
-
 ---
 ---
 

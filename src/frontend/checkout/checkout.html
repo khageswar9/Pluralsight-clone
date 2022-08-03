@@ -556,11 +556,11 @@
             <div class="odr_det">
                 <div class="plan">
                     <div class="pln_head">PLAN</div>
-                    <div class="pln_det" id="scheme_plan">xxxx</div>
+                    <div class="pln_det planners" id="scheme_plan">xxxx</div>
                 </div>
                 <div class="price">
                     <div class="pln_head">PRICE</div>
-                    <div class="price_det" id="scheme_price">₹00</div>
+                    <div class="price_det pricers" id="scheme_price">₹00</div>
                 </div>
             </div>
 
@@ -577,7 +577,7 @@
 
             <div class="tot_due">
                 <div class="tot_due_head">Total due today</div>
-                <div class="price_det" id="plan_total">₹00</div>
+                <div class="price_det pr" id="plan_total">₹00</div>
             </div>
         
         </div>
@@ -598,3 +598,24 @@
 </body>
 <script src="./checkout.js"></script>
 </html>
+<script>
+   
+
+    let planners = document.querySelector(".planners")
+    let pricert = document.querySelector(".pricers")
+    let pyt = document.querySelector(".pr")
+
+    let q12 = JSON.parse(localStorage.getItem('namer'))
+    let q13 = JSON.parse(localStorage.getItem('money'))
+
+     console.log(q12)
+    if(q12!==null){
+        planners.innerHTML = q12||"xxxx"
+        pyt.innerHTML=q13||"00";
+        pricert.innerHTML=q13||"00"
+
+
+    }
+    
+    
+    </script>

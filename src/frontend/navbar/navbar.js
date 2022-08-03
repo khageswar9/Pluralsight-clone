@@ -158,7 +158,7 @@ function navbar(){
                 <i class="fa-solid fa-magnifying-glass" style="color: white;"></i>
             </div>
             <div class="dropdown">
-                <button class="dropbtn">Sign In
+                <button class="dropbtn zbra">Sign In
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="SignIn">
@@ -181,5 +181,8 @@ function navbar(){
     </div>
 
 `
+
+
 }
+
 export default navbar;

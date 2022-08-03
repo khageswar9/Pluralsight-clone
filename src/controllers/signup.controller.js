@@ -2,7 +2,6 @@ const express = require("express");
 const { body, validationResult } = require("express-validator");
 const User = require("../module/user.module")
 const jwt = require('jsonwebtoken');
-// require('dotenv').config();
 const router = express.Router();
 
 
