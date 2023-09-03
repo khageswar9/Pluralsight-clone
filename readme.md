@@ -17,6 +17,11 @@ _To start with the Project run the following command in terminal in "backend" fo
 https://medium.com/@abhijeetchaudhari110/pluralsight-clone-f12f5a3e042e
 
 ---
+
+### Netlify Link
+ 
+https://plurlsightclone.netlify.app/
+
 ---
 
 ### Team Members
@@ -86,3 +91,11 @@ https://medium.com/@abhijeetchaudhari110/pluralsight-clone-f12f5a3e042e
 ### Medium Link
 
 https://medium.com/@abhijeetchaudhari110/pluralsight-clone-f12f5a3e042e
+
+---
+
+### Netlify Link
+ 
+https://plurlsightclone.netlify.app/
+
+---
