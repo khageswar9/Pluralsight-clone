@@ -16,10 +16,6 @@ _To start with the Project run the following command in terminal in "backend" fo
 
 https://medium.com/@abhijeetchaudhari110/pluralsight-clone-f12f5a3e042e
 
-### Netlify Link
-
-https://plurlsightclone.netlify.app
-
 ---
 ---
 
@@ -90,10 +86,3 @@ https://plurlsightclone.netlify.app
 ### Medium Link
 
 https://medium.com/@abhijeetchaudhari110/pluralsight-clone-f12f5a3e042e
-
-
-
-
-### Netlify Link
-
-https://plurlsightclone.netlify.app
