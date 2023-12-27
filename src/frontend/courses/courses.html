@@ -671,28 +671,120 @@ margin:10px;
 </html>
 <script type="module" src="./courses.js" ></script>
 <script >
-    var Data ;
-    let url = 'https://clone-pluralsight-server.herokuapp.com/courses';
+    var Data = [
+    {
+    title: "JavaScript Fundamentals",
+    by: "John Doe",
+    time: "4h 30m",
+    level: "Beginner",
+    rating: "4.5",
+    shortDescription: "Learn the basics of JavaScript programming.",
+    description: "This course covers the fundamental concepts of JavaScript, including variables, functions, and control flow.",
+    authorImageUrl: "https://source.unsplash.com/random/200x200?person",
+    authorAbout: "John Doe is a seasoned web developer with over 10 years of experience.",
+  },
+  {
+    title: "React.js Mastery",
+    by: "Jane Smith",
+    time: "6h 15m",
+    level: "Intermediate",
+    rating: "4.8",
+    shortDescription: "Master the art of building dynamic web applications with React.js.",
+    description: "This comprehensive course covers React.js concepts such as components, state, and props, and guides you through building real-world projects.",
+    authorImageUrl: "https://source.unsplash.com/random/200x200?person",
+    authorAbout: "Jane Smith is a front-end developer and React.js enthusiast.",
+  },
+  {
+    title: "Introduction to Python",
+    by: "Alice Johnson",
+    time: "3h 30m",
+    level: "Beginner",
+    rating: "4.2",
+    shortDescription: "Get started with Python programming language.",
+    description: "This course covers the basics of Python, including syntax, data types, and basic programming concepts.",
+    authorImageUrl: "https://source.unsplash.com/random/200x200?person",
+    authorAbout: "Alice Johnson is a software engineer with a passion for teaching Python to beginners.",
+  },
+  {
+    title: "Data Science with R",
+    by: "Bob Miller",
+    time: "5h 45m",
+    level: "Intermediate",
+    rating: "4.7",
+    shortDescription: "Explore data science concepts using the R programming language.",
+    description: "Learn how to analyze and visualize data using R, and gain insights into statistical modeling and machine learning.",
+    authorImageUrl: "https://source.unsplash.com/random/200x200?person",
+    authorAbout: "Bob Miller is a data scientist with expertise in R and statistical analysis.",
+  },
+  {
+    title: "Full Stack Web Development",
+    by: "Charlie Davis",
+    time: "8h 15m",
+    level: "Advanced",
+    rating: "4.9",
+    shortDescription: "Master the skills to become a full-stack web developer.",
+    description: "Covering both front-end and back-end development, this course guides you through building modern web applications from start to finish.",
+    authorImageUrl: "https://source.unsplash.com/random/200x200?person",
+    authorAbout: "Charlie Davis is a seasoned full-stack developer with a focus on creating robust and scalable web applications.",
+  },
+  {
+    title: "Machine Learning Fundamentals",
+    by: "Eva Williams",
+    time: "6h 30m",
+    level: "Intermediate",
+    rating: "4.6",
+    shortDescription: "Explore the basics of machine learning and its applications.",
+    description: "This course provides an introduction to machine learning concepts, algorithms, and applications, with hands-on examples.",
+    authorImageUrl: "https://source.unsplash.com/random/200x200?person",
+    authorAbout: "Eva Williams is a machine learning enthusiast and AI researcher.",
+  },
+  {
+    title: "Mobile App Development with Flutter",
+    by: "Frank Anderson",
+    time: "7h 45m",
+    level: "Intermediate",
+    rating: "4.8",
+    shortDescription: "Build cross-platform mobile apps with Flutter framework.",
+    description: "Learn how to create mobile applications for iOS and Android using the Flutter framework, covering UI design, state management, and more.",
+    authorImageUrl: "https://source.unsplash.com/random/200x200?person",
+    authorAbout: "Frank Anderson is a mobile app developer and Flutter advocate.",
+  },
+  {
+    title: "Cybersecurity Essentials",
+    by: "Grace Taylor",
+    time: "4h 0m",
+    level: "Intermediate",
+    rating: "4.5",
+    shortDescription: "Understand the fundamental concepts of cybersecurity.",
+    description: "This course covers essential cybersecurity topics, including encryption, network security, and best practices for securing digital assets.",
+    authorImageUrl: "https://source.unsplash.com/random/200x200?person",
+    authorAbout: "Grace Taylor is a cybersecurity expert with a background in ethical hacking.",
+  },
+  {
+    title: "Artificial Intelligence Ethics",
+    by: "Henry Thompson",
+    time: "5h 15m",
+    level: "Advanced",
+    rating: "4.7",
+    shortDescription: "Explore ethical considerations in the field of artificial intelligence.",
+    description: "This course delves into the ethical implications of artificial intelligence, addressing issues such as bias, privacy, and responsible AI development.",
+    authorImageUrl: "https://source.unsplash.com/random/200x200?person",
+    authorAbout: "Henry Thompson is a professor of computer science with expertise in AI ethics.",
+  },
+  {
+    title: "Cloud Computing Basics",
+    by: "Isabel Garcia",
+    time: "6h 0m",
+    level: "Intermediate",
+    rating: "4.6",
+    shortDescription: "Get started with cloud computing and popular cloud platforms.",
+    description: "Learn the fundamentals of cloud computing, including cloud services, deployment models, and hands-on experience with platforms like AWS and Azure.",
+    authorImageUrl: "https://source.unsplash.com/random/200x200?person",
+    authorAbout: "Isabel Garcia is a cloud solutions architect and technology evangelist.",
+  },
+] ;
 
-async function getData(url){
-
-   try{
-    let res= await fetch(url);
-
-      let data = await res.json();
- 
-      appendData(data.course); 
-     console.log(data.course);
-      Data = data.course;
-   }
-   catch(err) {
-       console.log(err);
-   }
-}
-
-getData(url);
-
-// appendData(data); 
+appendData(Data); 
 
 function appendData(data){
     var d = document.getElementById("box2div2subdiv1")
