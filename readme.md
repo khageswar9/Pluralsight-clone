@@ -33,8 +33,6 @@ https://plurlsightclone.netlify.app/homepage/index.html
 
 ---
 
----
-
 ## Tech Stack Used : -
 
 - #### Languages
